@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fetchflag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetch HTML/Markdown flag fragments safely for docs pipelines.",
+  "bin": {
+    "fetchflag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fetchflag.git"
+  },
+  "homepage": "https://theworker02.github.io/fetchflag/",
+  "keywords": [
+    "fetch",
+    "flag",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
